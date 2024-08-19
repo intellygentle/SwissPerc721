@@ -19,3 +19,13 @@ configure your .env file
 npx hardhat run scripts/deploy2.js --network swisstronik
 ```
 <img width="593" alt="depl" src="https://github.com/user-attachments/assets/0d69a932-e0f6-4158-bfb2-46ab0ecd65d0">
+
+edit the mint.js file with the deployed contract address and the wallet address of your burner private key
+
+<img width="726" alt="mintjs" src="https://github.com/user-attachments/assets/62e2babc-d0ef-44c3-aad7-59db8da78d6f">
+
+```
+npx hardhat run scripts/mint.js --network swisstronik
+```
+
+

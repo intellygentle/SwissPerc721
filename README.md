@@ -34,6 +34,9 @@ edit the balOf.js with your contract address and your burner private key. be sur
 ```
 npx hardhat run scripts/balOf.js --network swisstronik
 ```
+<img width="587" alt="balres" src="https://github.com/user-attachments/assets/2af6e319-a706-44f5-b10c-acd733c2d1d2">
+
+
 
 
 

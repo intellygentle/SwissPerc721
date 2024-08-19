@@ -36,6 +36,21 @@ npx hardhat run scripts/balOf.js --network swisstronik
 ```
 <img width="587" alt="balres" src="https://github.com/user-attachments/assets/2af6e319-a706-44f5-b10c-acd733c2d1d2">
 
+# Push To Github
+```
+git remote remove origin
+```
+```
+git remote add origin https://yourGitRepoLink
+```
+```
+git checkout --orphan new-main
+git add -A
+git commit -m "Initial commit"
+git branch -D main
+git branch -m main
+git push -f origin main
+```
 
 
 

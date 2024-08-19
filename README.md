@@ -28,4 +28,13 @@ edit the mint.js file with the deployed contract address and the wallet address 
 npx hardhat run scripts/mint.js --network swisstronik
 ```
 
+edit the balOf.js with your contract address and your burner private key. be sure to remove the private key
+<img width="719" alt="baljs" src="https://github.com/user-attachments/assets/79f7f75a-3680-4815-bcd1-a2a0c30b982a">
+
+```
+npx hardhat run scripts/balOf.js --network swisstronik
+```
+
+
+
 
